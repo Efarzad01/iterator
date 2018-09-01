@@ -8,16 +8,15 @@ public class Ite {
         list.add("NY");
         list.add("FL");
         list.add("AZ");
-        list.add("CA");
+        list.add("CA"); //C:\Users\emdad\IdeaProjects\iterator
 
-       /* Iterator it =list.iterator();
+        Iterator it =list.iterator();
         while(it.hasNext()){
             System.out.println(it.next());
-        }*/
-       for(String st:list){
+        }
+      for(String st:list){
            System.out.println(st);
        }
 
 
-    }
-}
+    }}
